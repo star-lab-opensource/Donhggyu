@@ -1,6 +1,8 @@
 a=input()
-abc='abcdefghijklmnopqrstuvwxyz'
-for i in a:
-    for j in abc:
-        if(a(i)==abc(j)):
-            
+x='abcdefghijklmnopqrstuvwxyz'
+for i in len(x):
+    for j in len(a):
+        if(a[i]==x[i]):
+            print(i)
+        else:
+            print(-1)
